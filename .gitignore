@@ -1,0 +1,6 @@
+sandbox/
+.DS_Store
+.idea/
+*/.idea
+*.pyc
+localsettings.py

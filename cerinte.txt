@@ -1,0 +1,21 @@
+Subiectul 1
+
+De pe site-ul http://www.crunchbase.com/ , pentru o companie oarecare, extrageti locatia companiei, numărul de angajați,
+website-ul și evaluarea la IPO.
+
+Subiectul 2
+
+Se da setul de date:
+
+http://archive.ics.uci.edu/ml/datasets/Iris
+
+Sa se construiasca arborele de clasificare corespunzator. Utilizati primele 90% de inregistrari pentru construirea unui
+arbore de decizie. Se va testa arborele pe inregistrarile 90-100.
+
+Subiectul 3
+
+Se dă setul de date:
+
+http://archive.ics.uci.edu/ml/datasets/User+Knowledge+Modeling#
+
+Să se aplice un algoritm de clustering și să se afișeze care intrare aparține cărui cluster.

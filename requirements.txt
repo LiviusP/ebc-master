@@ -1,0 +1,6 @@
+requests
+pyquery
+selenium
+numpy
+scipy
+scikit-learn
