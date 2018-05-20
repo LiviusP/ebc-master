@@ -14,11 +14,13 @@ def main():
     driver = webdriver.Chrome(options=opts)
     driver.set_window_position(0, 0)
     driver.set_window_size(100, 400)
-    driver.get("https://www.crunchbase.com/organization/netflix")
+    driver.get("https://www.sport.ro")
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
     name = driver.find_elements_by_xpath("//*[@id='section-overview']/mat-card/div[2]/div/image-with-fields-card/image-with-text-card/div/div/div[2]/div[1]/field-formatter/blob-formatter/span")
+    text = driver.find_elements_by_xpath("//*[@id='zone0_article_639405']/p")
+    titles = [x.text for x in text]
 
-    print(name)
+    print(titles)
     driver.quit()
 
 
